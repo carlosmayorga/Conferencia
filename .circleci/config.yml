@@ -28,7 +28,7 @@ jobs:
       - run:
           name: Deploy Master to Heroku
           command: |
-            git push https://heroku:10e6ec8e-c65b-4b12-a4fd-e603499c6ded@git.heroku.com/anteproyecto.git master
+            git push https://heroku:${heroku}@git.heroku.com/conferencia-ieee.git master
 
 workflows:
   version: 2
